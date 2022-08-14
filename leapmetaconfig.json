@@ -1,54 +1,14 @@
 [
 	{
-		"ConfigFile": "LEAP/Saved/Config/LinuxServer/Game.ini",
-		"Subsections": [
-			{
-				"Heading": "/Script/ProjectX.ProjectXGameSession",
-				"SettingMappings": {
-					"ServerName": "server_name",
-					"ServerRegion": "server_region",
-					"ServerPassword": "server_password"
-				}
-			},
-			{
-				"Heading": "/Script/ProjectX.ProjectXGameMode",
-				"SettingMappings": {
-					"MaxPlayersOverride": "max_players",
-					"MaxTeamImbalance": "max_team_imbalance",
-					"MatchLengthOverride": "match_length_override",
-					"MaxPlayerDeployablesOverride": "max_player_deployables_override"
-				}
-			},
-			{
-				"Heading": "/Script/ProjectX.ProjectXGameState",
-				"SettingMappings": {
-					"UltimateDamageMultiplier": "UltimateDamageMultiplier",
-					"ExplosiveDamageMultiplier": "ExplosiveDamageMultiplier",
-					"HeadshotDamageMultiplier": "HeadshotDamageMultiplier",
-					"WeaponDamageMultiplier": "WeaponDamageMultiplier",
-					"AbilityCooldownMultiplier": "AbilityCooldownMultiplier",
-					"HookshotDistanceMultiplier": "HookshotDistanceMultiplier",
-					"HookshotSpeedMultipler": "HookshotSpeedMultipler",
-					"UltimateChargeRateMultiplier": "UltimateChargeRateMultiplier",
-					"GrenadeCountModifier": "GrenadeCountModifier",
-					"DashChargeModifier": "DashChargeModifier",
-					"GravityMultiplier": "GravityMultiplier",
-					"GroundSpeedMultiplier": "GroundSpeedMultiplier",
-					"bIsAmmoLimited": "bIsAmmoLimited"
-				}
-			},
-			{
-				"Heading": "/Script/ProjectX.ProjectXGameInstance",
-				"SettingMappings": {
-					"bEnableAntiCheatForServer": "bEnableAntiCheatForServer",
-					"ModIds": "mod1",
-					"ModIds": "mod2",
-					"ModIds": "mod3",
-					"ModIds": "mod4",
-					"ModIds": "mod5",
-					"ModIds": "mod6"
-				}
-			}
-		]
-	}
+        "ConfigFile":"LEAP/Saved/Config/WindowsServer/Game.ini", 
+        "AutoMap":true,
+        "ConfigType":"ini",
+		"ConfigFormatRegex":"^(?<key>.+?)=(?<value>.*?)$"
+    },
+	{
+        "ConfigFile":"LEAP/Saved/Config/LinuxServer/Game.ini", 
+        "AutoMap":true,
+        "ConfigType":"ini",
+		"ConfigFormatRegex":"^(?<key>.+?)=(?<value>.*?)$"
+    }
 ]
